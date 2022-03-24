@@ -1,0 +1,38 @@
+body {background:url(https://images.fineartamerica.com/images-medium-large-5/glowing-red-and-black-abstract-fractal-art-matthias-hauser.jpg)}
+h1{font-size: large;}
+
+.navbar {background-color: rgb(10, 10, 10); position: sticky;top: 0;left: 0; z-index: 1;}
+
+ul {
+    list-style-type: none; background-color: black;
+    float: left;
+}
+
+ul li {
+    
+    padding-right: 14px;
+    background-color: rgb(10, 10, 10);
+    padding: 10px;  float: left;  
+    box-shadow: 5px 10px red;
+}
+
+ul li a {
+    /* gets rid of unline in link */
+    text-decoration: none;  
+    color: white;
+}
+
+ul li a:hover {
+    color: blue;
+}
+ul li:hover {
+        background-color: rgb(231, 19, 19)}
+ 
+figcaption {text-align: center; padding: 1px;}
+
+figure {background-color: brown; border: 1px solid black; margin:auto; width: 700; display:block
+}
+
+.item { float: right;
+border-radius: 2px;}
+
